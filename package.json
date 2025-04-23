@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-with-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashChauhan24/nodejs-with-prisma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/YashChauhan24/nodejs-with-prisma/issues"
+  },
+  "homepage": "https://github.com/YashChauhan24/nodejs-with-prisma#readme"
+}

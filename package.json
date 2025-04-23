@@ -2,9 +2,10 @@
   "name": "nodejs-with-prisma",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,25 @@
   "bugs": {
     "url": "https://github.com/YashChauhan24/nodejs-with-prisma/issues"
   },
-  "homepage": "https://github.com/YashChauhan24/nodejs-with-prisma#readme"
+  "homepage": "https://github.com/YashChauhan24/nodejs-with-prisma#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "@types/passport": "^1.0.17",
+    "prisma": "^6.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.6.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  }
 }

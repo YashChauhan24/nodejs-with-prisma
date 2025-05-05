@@ -4,6 +4,7 @@ import cors from 'cors';
 import passport from 'passport';
 import config from './config/config';
 import { connectDB } from './config/db';
+import router from './router/routes';
 
 const app: Application = express();
 
@@ -13,7 +14,7 @@ app.use(passport.initialize());
 
 connectDB();
 
-app.use('/api');
+app.use('/api', router);
 
 app.listen(config.port, () => {
   console.log(`Server is running on http://localhost:${config.port}`);
